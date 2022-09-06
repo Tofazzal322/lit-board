@@ -1,0 +1,170 @@
+import React, { useEffect, useRef, useState } from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Carousel from "react-bootstrap/Carousel";
+
+import firstImage ="/image/Screenshot 6.jpg"
+
+const DateTime = () => {
+  const [ltiDays, setLtiDays] = useState("Aug 4, 2022");
+  let interval = useRef();
+  let showDate = new Date();
+
+  let displayTodaysDate =
+    showDate.getDate() +
+    "/" +
+    (showDate.getMonth() + 1) +
+    "/" +
+    showDate.getFullYear();
+  
+  const previousBest = 1000 + "  " + "Days";
+  const lastAccident = "12/05/2022";
+
+  const startDays = () => {
+    const countDays = new Date("Aug 4, 2022 00:00:00").getTime();
+
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = now - countDays;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+      if (distance < 0) {
+        //stop count
+        clearInterval(interval.current);
+      } else {
+        setLtiDays(days);
+      }
+    }, 1000);
+  };
+
+  useEffect(() => {
+    startDays();
+    return () => {
+      clearInterval(interval);
+    };
+  });
+
+  return (
+    <div className="bg">
+      
+  
+        <Container className=" pt-3">
+        <div className="mb-5 mt-3">
+          <h1 className="text-center mb-5 text-color mt-3">
+            HSE SAFETY STATISTIC BOARD
+          </h1>
+        </div>
+        <Row>
+          <Col>
+            <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=First slide&bg=373940"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Second slide&bg=282c34"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Third slide&bg=20232a"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+          </Col>
+          <Col>
+            <Row className="mt-5">
+          <Col className="w-50">
+            <h1 className="text-color">TODAY'S DATE</h1>
+          </Col>
+          <Col>
+            <input
+              className="h1  p-2 text-center text-color"
+              type="text"
+              value={displayTodaysDate}
+              readOnly="true"
+            />
+          </Col>
+        </Row>
+        <Row className="mt-4">
+          <Col>
+            <div>
+              <h1 className="best text-warning">WORK DAYS WITHOUT LTI</h1>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <input
+                className="h1 p-2 text-center text-danger"
+                type="text"
+                value={ltiDays + ("  " + "Days")}
+              />
+            </div>
+          </Col>
+        </Row>{" "}
+        <Row className="mt-4">
+          <Col>
+            <div>
+              <h1 className="best text-color">DATE OF LAST ACCIDENT</h1>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <input
+                className="h1 p-2 text-center text-color"
+                type="text"
+                value={lastAccident}
+              />
+            </div>
+          </Col>
+        </Row>{" "}
+        <Row className="mt-4">
+          <Col>
+            <div>
+              <h1 className="best text-color">PREVIOUS BEST </h1>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <input
+                className="h1 p-2 text-center text-color"
+                type="text"
+                value={previousBest}
+              />
+            </div>
+          </Col>
+        </Row>
+          </Col>
+        </Row>
+      </Container>
+     
+    </div>
+  );
+};
+
+export default DateTime;
