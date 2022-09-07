@@ -1,0 +1,15 @@
+.date-time{
+  background-color: aqua;
+  height: 100vh;
+
+}
+
+.text-decoration{
+  border: none;
+  background-color: aqua;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  size: 3rem;
+  font-size: large;
+  font-weight: ;
+}
