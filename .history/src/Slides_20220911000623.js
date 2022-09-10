@@ -29,6 +29,7 @@ const Slides = () => {
         <Col xs={3} className="latest-news">
           <div>
             <h5 className="latest-news-text">
+              {" "}
               <small className="latest">Latest</small>{" "}
               <small className="news">News</small>
             </h5>
