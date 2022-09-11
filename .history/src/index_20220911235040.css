@@ -152,7 +152,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   text-decoration:transparent;
   font-style: italic;
   font-family: 'Roboto', sans-serif;  
-  text-shadow: 1px 1px 4px 0.9px rgb(128, 134, 135);
+  text-shadow: 1px 1px 4px 2px rgb(128, 134, 135);
   font-weight:500;
 }
 

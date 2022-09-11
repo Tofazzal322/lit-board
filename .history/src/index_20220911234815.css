@@ -151,19 +151,21 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 .scroll-text{
   text-decoration:transparent;
   font-style: italic;
+  /* text-indent: 50px !important; */
   font-family: 'Roboto', sans-serif;  
-  text-shadow: 1px 1px 4px 0.9px rgb(128, 134, 135);
-  font-weight:500;
+  text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
 }
 
 .nd-part{
 color: #ed1c24;
+/* text-indent: 20px; */
 font-family: 'Roboto', sans-serif;  
 text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
 }
 
 .nd-part2{
 color: #f7db06;
+text-indent: 50px;
 font-family: 'Roboto', sans-serif;
 text-shadow: 1px 1px 4px 5px rgb(128, 134, 135);  
 }

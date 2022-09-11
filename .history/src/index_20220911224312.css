@@ -131,12 +131,12 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
 .latest{
 
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight:bolder; 
   padding: 2px;
   border-radius: 10px;
   text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   color: rgb(253, 0, 0);
   font-family: 'Roboto', sans-serif;  
 }
@@ -145,25 +145,14 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;  
   font-size: 2rem;
   font-weight:bolder;
-  text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
+  text-shadow: 1px 1px 4px rgb(128, 134, 135);
 }
 
 .scroll-text{
   text-decoration:transparent;
   font-style: italic;
-  font-family: 'Roboto', sans-serif;  
-  text-shadow: 1px 1px 4px 0.9px rgb(128, 134, 135);
-  font-weight:500;
 }
 
 .nd-part{
 color: #ed1c24;
-font-family: 'Roboto', sans-serif;  
-text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
-}
-
-.nd-part2{
-color: #f7db06;
-font-family: 'Roboto', sans-serif;
-text-shadow: 1px 1px 4px 5px rgb(128, 134, 135);  
 }
