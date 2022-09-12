@@ -6,7 +6,7 @@ import Iframe from "react-iframe";
 
 const Slides = () => {
   const PPTUrl =
-    "https://docs.google.com/presentation/d/e/2PACX-1vRQa-ksL4EUz2M1OZ0NxFrneUUb4FQ5m0Oiug7ER7tOCL30l_yaQYqJf33MpV3F2Q/embed?start=true&loop=true&delayms=5000";
+    "https://docs.google.com/presentation/d/e/2PACX-1vRQa-ksL4EUz2M1OZ0NxFrneUUb4FQ5m0Oiug7ER7tOCL30l_yaQYqJf33MpV3F2Q/embed?start=true&loop=false&delayms=5000";
 
   return (
     <section className="ms-3">

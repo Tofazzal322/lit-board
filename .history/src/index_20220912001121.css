@@ -124,19 +124,18 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   color:  #ffffff;
   border-bottom: 5px solid #ed1c24;
   border-radius: 10px;
-  text-shadow: 2px 2px 2px  rgb(47, 218, 230);
+  text-shadow: 2px 2px 4px rgb(128, 134, 135);
   letter-spacing: 10px;
-  /* text-anchor: middle; */
  
 }
 
 .latest{
 
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight:bolder; 
   padding: 2px;
   border-radius: 10px;
-  text-shadow: 3px 2px 2px  rgb(128, 134, 135);
+  text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
   letter-spacing: 10px;
   color: rgb(253, 0, 0);
   font-family: 'Roboto', sans-serif;  
@@ -146,7 +145,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;  
   font-size: 2rem;
   font-weight:bolder;
-  text-shadow: 2px 2px 2px  rgb(128, 134, 135);
+  text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
 }
 
 .scroll-text{
