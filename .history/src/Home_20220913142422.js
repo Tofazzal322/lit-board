@@ -3,7 +3,6 @@ import DateTime from './Datetime';
 import Slides from "./Slides";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Scroll from './Scroll';
 
 const Home = () => {
   return (
@@ -16,9 +15,7 @@ const Home = () => {
           <DateTime></DateTime>
         </Col>
       </Row>
-      <Row className="mt-4 scroll-component">
-        <Scroll></Scroll>
-      </Row>
+      <S
     </div>
   );
 };

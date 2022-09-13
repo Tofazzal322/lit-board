@@ -89,7 +89,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
  
   border-radius: 10px;
   margin-left: 20px;
-  /* margin-right: 1pt !important; */
+  margin-right: 5px !important;
   margin-bottom: 7px !important ; 
   background-color: #293896;
   border-bottom: 5px solid #ed1c24;

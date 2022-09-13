@@ -16,9 +16,7 @@ const Home = () => {
           <DateTime></DateTime>
         </Col>
       </Row>
-      <Row className="mt-4 scroll-component">
-        <Scroll></Scroll>
-      </Row>
+      <Scroll></Scroll>
     </div>
   );
 };

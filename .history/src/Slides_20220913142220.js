@@ -18,7 +18,7 @@ const Slides = () => {
         <div className="ms-1">
           <Iframe
             src={PPTUrl}
-            width="800px"
+            width="800"
             height="600px"
             allowfullscreen="true"
             transparent="100"
