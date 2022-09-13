@@ -19,7 +19,7 @@ const Slides = () => {
           <Iframe
             src={PPTUrl}
             width="800"
-            height="600px"
+            height="600"
             allowfullscreen="true"
             transparent="100"
             frameBorder="0"

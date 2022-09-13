@@ -46,7 +46,7 @@ const DateTime = () => {
   return (
     <div>
       <div>
-        <h6 className="text-center heading-decoration mb-2 pt-2 pt-2 mt-2">
+        <h6 className="text-center heading-decoration mb-2 pt-2 mt-2">
           HSE STATISTIC BOARD
         </h6>
       </div>

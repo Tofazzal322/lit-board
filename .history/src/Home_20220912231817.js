@@ -8,11 +8,13 @@ const Home = () => {
   return (
     <div>
       <Row>
-        <Col xs={9} className="slides-bg">
+        <Col xs={7} className="slides-bg">
           <Slides></Slides>
         </Col>
-        <Col xs={3} fluid className=" date-time">
-          <DateTime></DateTime>
+        <Col xs={5} fluid className=" date-time">
+          <DateTime>
+             
+          </DateTime>
         </Col>
       </Row>
     </div>

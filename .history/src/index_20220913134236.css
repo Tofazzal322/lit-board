@@ -1,6 +1,6 @@
 .date-time{
   /* background-color: rgb(255, 255, 255); */
-  height: 100vh;
+  height: 950px;
 
 }
 
@@ -71,7 +71,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   border-radius: 10px;
   /* width: 800px; */
-  height: 595px;
+  height: 655px;
 }
 
 .responsive iframe{
@@ -84,7 +84,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
  
   border-radius: 10px;
   margin-left: 20px;
-  margin-bottom: 7px !important ; 
+  margin-bottom: 10px !important ; 
   background-color: #293896;
   border-bottom: 5px solid #ed1c24;
   color: aliceblue;

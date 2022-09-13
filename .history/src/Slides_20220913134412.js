@@ -11,7 +11,7 @@ const Slides = () => {
 
   return (
     <section className="ms-3">
-      <Row className="pt-2 ms-1 pb-1 mt-2 text-center profile">
+      <Row className="pt-2 ms-1 pb-2 mt-1 text-center profile">
         <h2 className="profile-text">COMPANY PROFILE</h2>
       </Row>
       <Row className="responsive ">
@@ -19,7 +19,7 @@ const Slides = () => {
           <Iframe
             src={PPTUrl}
             width="800"
-            height="600px"
+            height="600"
             allowfullscreen="true"
             transparent="100"
             frameBorder="0"

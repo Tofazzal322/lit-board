@@ -46,8 +46,8 @@ const DateTime = () => {
   return (
     <div>
       <div>
-        <h6 className="text-center heading-decoration mb-2 pt-2 pt-2 mt-2">
-          HSE STATISTIC BOARD
+        <h6 className="text-center heading-decoration mb-2 pt-2 mt-2">
+          HSE SAFETY STATISTIC BOARD
         </h6>
       </div>
       <Container >
@@ -117,7 +117,7 @@ const DateTime = () => {
         </Row>
         <Row>
           <Col xs={6}>
-<img className=" pt-4 h-75 mt-4" src="https://s3.amazonaws.com/sdxuk-uploads/kKKSsf0g0336ia2hnASpPSdmm85Jbq7S5dh827rb7kRtw1llSdwra0okRsd.jpg" alt="" />
+<img className=" pt-5 mt-4" src="https://s3.amazonaws.com/sdxuk-uploads/kKKSsf0g0336ia2hnASpPSdmm85Jbq7S5dh827rb7kRtw1llSdwra0okRsd.jpg" alt="" />
           </Col>
           <Col xs={6} >
 <img className="w-100 h-50 pt-4 mt-4" src="https://www.sodexojobs.co.uk/application/assets/20/images/logo.png" alt="" />

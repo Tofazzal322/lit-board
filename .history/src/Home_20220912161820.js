@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div>
       <Row>
-        <Col xs={9} className="slides-bg">
+        <Col xs={7} className="bg-light slides">
           <Slides></Slides>
         </Col>
-        <Col xs={3} fluid className=" date-time">
+        <Col xs={5} fluid className=" date-time">
           <DateTime></DateTime>
         </Col>
       </Row>

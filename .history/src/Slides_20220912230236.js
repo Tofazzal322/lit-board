@@ -6,20 +6,20 @@ import Iframe from "react-iframe";
 
 const Slides = () => {
   const PPTUrl =
-    "https://docs.google.com/presentation/d/e/2PACX-1vQ2-4QfSx4e-VGnwndlqWfH3YJWgHktzValkW5F9hprP3qpTvLErYShNVMyFkSPig/embed?start=false&loop=true&delayms=5000";
+    "https://docs.google.com/presentation/d/e/2PACX-1vRQa-ksL4EUz2M1OZ0NxFrneUUb4FQ5m0Oiug7ER7tOCL30l_yaQYqJf33MpV3F2Q/embed?start=true&loop=true&delayms=5000";
 
-
+   
   return (
     <section className="ms-3">
-      <Row className="pt-2 ms-1 pb-1 mt-2 text-center profile">
+      <Row className="pt-5 ms-1 pb-2 mt-2 text-center profile">
         <h2 className="profile-text">COMPANY PROFILE</h2>
       </Row>
       <Row className="responsive ">
         <div className="ms-1">
           <Iframe
             src={PPTUrl}
-            width="800"
-            height="600px"
+            width="623"
+            height="420"
             allowfullscreen="true"
             transparent="100"
             frameBorder="0"
@@ -58,7 +58,7 @@ const Slides = () => {
                 <span className="nd-part">|</span> Defense{" "}
                 <span className="nd-part">|</span> Business Institutions "
               </span>
-          
+              <iframe src="https://drive.google.com/file/d/1_G91iYgwsXV-UC1ndFi5XvjQIjVbZylj/preview" width="640" height="480" allow="autoplay"></iframe>
             </span>
           </Marquee>
         </Col>
