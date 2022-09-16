@@ -1,0 +1,140 @@
+import React, { useEffect, useRef, useState } from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+
+
+const DateTime = () => {
+  const [ltiDays, setLtiDays] = useState("Aug 3, 2022");
+  let interval = useRef();
+  let showDate = new Date();
+
+  let displayTodaysDate =
+    showDate.getDate() +
+    "/" +
+    (showDate.getMonth() + 1) +
+    "/" +
+    showDate.getFullYear();
+
+  const previousBest = 1610 + "  " + "Days";
+  const lastAccident = "03/08/2022";
+
+  const startDays = () => {
+    const countDays = new Date("Aug 3, 2022 00:00:00").getTime();
+
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = now - countDays;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+      if (distance < 0) {
+        //stop count
+        clearInterval(interval.current);
+      } else {
+        setLtiDays(days);
+      }
+    }, 1000);
+  };
+
+  useEffect(() => {
+    startDays();
+    return () => {
+      clearInterval(interval);
+    };
+  });
+
+  return (
+    <div>
+      <div>
+        <h6 className="text-center heading-decoration mb-2 pt-2 pt-2 mt-2">
+          HSE STATISTIC BOARD
+        </h6>
+      </div>
+      <Container >
+        <Row className="row-decoration">
+          <Col md={6} xs={12} className="">
+            <h5 className="title-decoration pt-1 mt-2">TODAY'S DATE</h5>
+          </Col>
+          <Col md={6} xs={12} fluid className="">
+            
+                 <input
+              className="text-center text-decoration text-color"
+              type="text"
+              value={displayTodaysDate}
+              readOnly="true"
+              overFollow="hidden"
+            />
+     
+          </Col>
+        </Row>
+        <Row className="mt-4 row-decoration">
+          <Col md={6} xs={12} className="">
+            <div>
+              <h5 className="best text-danger title-decoration mt-2 pt-2">DAYS WITHOUT LTI </h5>
+            </div>
+          </Col>
+          <Col md={6} xs={12} className="">
+            <div className="mt-2">
+              <input
+                className="text-center text-decoration text-danger"
+                type="text"
+                value={ltiDays + ("  " + "Days")}
+              />
+            </div>
+          </Col>
+        </Row>{" "}
+        <Row className="mt-4 row-decoration">
+          <Col md={6} xs={12} className="">
+            <div >
+              <h5 className="text-color title-decoration mt-2">DATE LAST ACCIDENT</h5>
+            </div>
+          </Col>
+          <Col md={6} xs={12} className="">
+            <div className="mt-2">
+              <input
+                className="text-center text-decoration text-color"
+                type="text"
+                value={lastAccident}
+              />
+            </div>
+          </Col>
+        </Row>{" "}
+        <Row className="mt-4 row-decoration">
+          <Col md={6} xs={12} className="">
+            <div>
+              <h5 className="text-color title-decoration mt-2">PREVIOUS BEST </h5>
+            </div>
+          </Col>
+          <Col md={6} xs={12} className="">
+            <div className="mt-2">
+              <input
+                className="text-center text-decoration text-color"
+                type="text"
+                value={previousBest}
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6} xs={12} >
+<img className="h-25 w-50" src="https://s3.amazonaws.com/sdxuk-uploads/kKKSsf0g0336ia2hnASpPSdmm85Jbq7S5dh827rb7kRtw1llSdwra0okRsd.jpg" alt="" />
+          </Col>
+          <Col md={6} xs={12}>
+            <img className="hse-logo2 " src="https://s32891.pcdn.co/wp-content/uploads/2017/12/zeromindset.png" alt="" />
+          </Col>
+       
+        </Row>
+        <Row>
+          <Col md={6} xs={12}>
+
+          </Col>
+             <Col md={6} xs={12} className="">
+<img className="sodexo-logo  pt-5 mt-5" src="https://www.sodexojobs.co.uk/application/assets/20/images/logo.png" alt="" />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
+
+export default DateTime;
