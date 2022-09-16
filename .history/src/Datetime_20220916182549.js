@@ -44,7 +44,7 @@ const DateTime = () => {
   });
 
   return (
-    <div className="board-column">
+    <div>
       <div>
         <h6 className="text-center heading-decoration mb-2 pt-2 pt-2 mt-2">
           HSE STATISTIC BOARD
@@ -137,12 +137,12 @@ const DateTime = () => {
         </Row>
         <Row>
           <Col className="mt-1 pt-3" md={6} xs={12}>
-            {/* <h5> Develop by</h5>
-            <small>Tofazzal Hossain</small> */}
+            <h5> Develop by</h5>
+            <small>Tofazzal Hossain</small>
           </Col>
           <Col md={6} xs={12} className="sodexo-logo ">
             <img
-              className=" pt-2 w-100 pe-2"
+              className=" pt-4 w-100 pe-2"
               src="https://www.sodexojobs.co.uk/application/assets/20/images/logo.png"
               alt=""
             />

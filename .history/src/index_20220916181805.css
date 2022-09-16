@@ -1,13 +1,11 @@
 .date-time{
-  /* background-color: rgb(226, 53, 53); */
-  /* height: 105%; */
+  /* background-color: rgb(255, 255, 255); */
+  /* height: 100; */
 
 }
 
 .slides-bg{
- height: 100%;
   background-color: rgb(255, 255, 255);
-   /* background-color: rgb(244, 12, 12); */
 }
 .text-decoration{
   padding: 10px;
@@ -30,7 +28,6 @@
   width: 100%;
   width: 100%;
   margin-top: 5px;
- 
 
 }
 
@@ -103,6 +100,7 @@ height: 100%;
  
   border-radius: 10px;
   margin-left: 20px;
+  /* margin-right: 1pt !important; */
   margin-bottom: 7px !important ; 
   background-color: #293896;
   border-bottom: 5px solid #ed1c24;
@@ -128,6 +126,7 @@ height: 100%;
   background-color: #293896;
   padding-top: 3px;
   font-weight: bolder;
+  /* padding-left: 20px; */
 }
 .latest-news-text{
  
@@ -149,6 +148,7 @@ height: 100%;
   border-radius: 10px;
   text-shadow: 2px 2px 2px  rgb(47, 218, 230);
   letter-spacing: 10px;
+  /* text-anchor: middle; */
  
 }
 
@@ -160,7 +160,7 @@ height: 100%;
   border-radius: 10px;
   text-shadow: 3px 2px 2px  rgb(128, 134, 135);
   letter-spacing: 10px;
-  color: #ed1c24;
+  color: rgb(253, 0, 0);
   font-family: 'Roboto', sans-serif;  
 }
 
@@ -206,16 +206,18 @@ margin-left: 70%;
 }
 
 .sodexo-logo {
-  margin-top: 10px;
-  overflow: hidden;
-  height: 80px;
- }
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100px;px;
+  /* padding-right: 10px !important; */
+}
 
 .hse-logo{
+width: auto;
    height: 130px;
 }
 .hse-logo2{
-  height: 130px;
+  height: 140px;
   margin-left: 10px;
 }
 
@@ -224,9 +226,4 @@ margin-left: 70%;
   height: 160px;
   overflow: hidden;
   
-}
-
-.board-column{
-  width: 100%;
-  height: 100%;
 }

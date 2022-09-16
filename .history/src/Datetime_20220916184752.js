@@ -142,7 +142,7 @@ const DateTime = () => {
           </Col>
           <Col md={6} xs={12} className="sodexo-logo ">
             <img
-              className=" pt-2 w-100 pe-2"
+              className=" pt- w-100 pe-2"
               src="https://www.sodexojobs.co.uk/application/assets/20/images/logo.png"
               alt=""
             />

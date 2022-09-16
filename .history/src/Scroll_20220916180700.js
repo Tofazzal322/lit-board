@@ -41,7 +41,7 @@ const Scroll = () => {
               </span>
               </span>
               
-
+              
           </Marquee>
         </Col>
       </Row>

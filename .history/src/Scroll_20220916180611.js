@@ -39,9 +39,8 @@ const Scroll = () => {
                 <span className="nd-part">|</span> Defense{" "}
                 <span className="nd-part">|</span> Business Institutions "
               </span>
-              </span>
-              
-
+          
+            </span>
           </Marquee>
         </Col>
       </Row>

@@ -33,7 +33,7 @@ const Scroll = () => {
               <span className="nd-part">|</span> Manpower supply{" "}
               <span className="nd-part">|</span> Gardening & Landscaping "
               <span className="nd-part2">
-                " The above services cover all different segments in the country
+                " {} The above services cover all different segments in the country
                 including : Oil & Gas <span className="nd-part">|</span>{" "}
                 Hospitals<span className="nd-part">|</span> Schools{" "}
                 <span className="nd-part">|</span> Defense{" "}
