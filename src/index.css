@@ -195,8 +195,8 @@ text-shadow: 1px 1px 4px 0.8px rgb(128, 134, 135);
 }
 
 .home{
-background-image:url("https://elements-cover-images-0.imgix.net/1c18a42a-ef44-43f3-8d1f-33ccf695ac2d?auto=compress%2Cformat&fit=max&w=1170&s=3d0f9c0b9bb6ee4ef8ea52ef86273b84");
-background-repeat: no-repeat;
+/* background-image:url("https://elements-cover-images-0.imgix.net/1c18a42a-ef44-43f3-8d1f-33ccf695ac2d?auto=compress%2Cformat&fit=max&w=1170&s=3d0f9c0b9bb6ee4ef8ea52ef86273b84");
+background-repeat: no-repeat; */
 max-width: 100%;
 height: 100vh;
 }
