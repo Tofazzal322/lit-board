@@ -46,8 +46,8 @@ const DateTime = () => {
   return (
     <div className="board-column">
       <div>
-        <h6 className="text-center heading-decoration mb-2 pt-4 pt-2 mt-1">
-          HSE LTI STATISTIC BOARD
+        <h6 className="text-center heading-decoration mb-2 pt-2 pt-2 mt-3">
+          HSE STATISTIC BOARD
         </h6>
       </div>
       <Container>

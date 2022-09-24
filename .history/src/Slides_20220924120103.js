@@ -8,7 +8,7 @@ const Slides = () => {
 
   return (
     <section className="ms-3 ">
-      <Row className="pt-4 ms-1 mt-1 text-center profile">
+      <Row className="pt-2 ms-1 mt- text-center profile">
         <h2 className="profile-text">COMPANY PROFILE</h2>
       </Row>
       <div className="responsive ">
