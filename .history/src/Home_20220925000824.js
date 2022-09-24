@@ -7,9 +7,7 @@ import Scroll from './Scroll';
 import SiteBuilding from './SiteBuilding';
 
 const Home = () => {
- setInterval(()=>{
-        window.location.reload(false);
-    }, 110000);
+
   return (
     <div className="home">
   
@@ -26,7 +24,7 @@ const Home = () => {
       <Row className="mt-2 scroll-component">
         <Scroll></Scroll>
         </Row>
-      
+      window.location.reload();
     </div>
   );
 };

@@ -7,9 +7,9 @@ import Scroll from './Scroll';
 import SiteBuilding from './SiteBuilding';
 
 const Home = () => {
- setInterval(()=>{
+ setI(()=>{
         window.location.reload(false);
-    }, 110000);
+    }, 10000);
   return (
     <div className="home">
   

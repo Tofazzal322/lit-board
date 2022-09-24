@@ -12,7 +12,7 @@ root.render(
     <Home></Home>
 
   </React.StrictMode>
-  
+  // window.location.reload();
 );
 
 // If you want to start measuring performance in your app, pass a function
