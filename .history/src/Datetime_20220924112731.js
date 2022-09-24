@@ -136,9 +136,9 @@ const DateTime = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={12} xs={12} className="sodexo-logo">
+          <Col md={6} xs={12} className="sodexo-logo ">
             <img
-              className=" w-25 pe-2"
+              className=" w-75 pe-2"
               src="https://www.sodexojobs.co.uk/application/assets/20/images/logo.png"
               alt=""
             />

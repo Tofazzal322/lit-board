@@ -79,9 +79,8 @@
   border: 2px solid rgb(2, 6, 90);
   border-radius: 10px;
   margin-left: 7px !important;
-  width: 100%;
-  height: 500px;
-  /* height: 100%; */
+  width: 00px;
+  height: 520px;
  
 }
 
@@ -208,15 +207,13 @@ margin-left: 70%;
 }
 
 .sodexo-logo {
-
- text-align: right;
+  margin-top: 10px;
   overflow: hidden;
-  height: 40px;
-  width: 100px;
+  height: 80px;
  }
 
 .hse-logo{
-   height: 120px;
+   height: 130px;
 }
 .hse-logo2{
   height: 130px;
