@@ -219,12 +219,15 @@ margin-left: 70%;
    height: 120px;
 }
 .hse-logo2{
-
+ align-items: flex-end;
   height: 130px;
-  margin-left: 70px;
-
+  margin-left: 10px;
+  margin-right: 300px;
 }
-
+.logo-2{
+  align-items: flex-end;
+  margin-left: 300px;
+}
 
 .hse-logo-row{
   width: 100%;

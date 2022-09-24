@@ -127,7 +127,7 @@ const DateTime = () => {
               alt=""
             />
           </Col>
-          <Col md={6} xs={12} className="logo-2">
+          <Col md={6} xs={12} className=>
             <img
               className=" hse-logo2  mt-4"
               src="https://s32891.pcdn.co/wp-content/uploads/2017/12/zeromindset.png"

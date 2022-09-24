@@ -14,10 +14,10 @@ const Home = () => {
 {/* <SiteBuilding></SiteBuilding> */}
       
       <Row>
-        <Col md={8} xs={12} className="slides-bg">
+        <Col xs={8} className="slides-bg">
           <Slides></Slides>
         </Col>
-        <Col md={ 4} xs={12} className=" date-time">
+        <Col xs={4} className=" date-time">
           <DateTime></DateTime>
         </Col>
       </Row>

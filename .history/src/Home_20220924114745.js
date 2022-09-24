@@ -17,7 +17,7 @@ const Home = () => {
         <Col md={8} xs={12} className="slides-bg">
           <Slides></Slides>
         </Col>
-        <Col md={ 4} xs={12} className=" date-time">
+        <Col md={xs={12} className=" date-time">
           <DateTime></DateTime>
         </Col>
       </Row>
