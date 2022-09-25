@@ -4,7 +4,7 @@ import Iframe from "react-iframe";
 
 const Slides = () => {
   const PPTUrl =
-    "https://docs.google.com/presentation/d/e/2PACX-1vQ4UebiwsunoyOJJPaMvv153Tzufi8ZoUDoUOeaWLRohABns9lOVBwdD48b3Usexg/embed?start=true&loop=true&delayms=10000";
+  "https://docs.google.com/presentation/d/e/2PACX-1vQ2-4QfSx4e-VGnwndlqWfH3YJWgHktzValkW5F9hprP3qpTvLErYShNVMyFkSPig/embed?start=true&loop=true&delayms=8000" 
 
   return (
     <section className="ms-3 ">
@@ -17,13 +17,12 @@ const Slides = () => {
             className="iframe"
             src={PPTUrl}
             frameborder="0"
-            width="872"
-            height="520"
+            width="872" height="520"
             allowfullscreen="true"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
           ></Iframe>
-        </div>
+          /div>
       </div>
     </section>
   );

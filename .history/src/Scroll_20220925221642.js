@@ -4,9 +4,9 @@ import Row from "react-bootstrap/Row";
 import Marquee from "react-fast-marquee";
 
 const Scroll = () => {
-  return (
-    <div>
-      <Row>
+    return (
+        <div>
+          <Row>
         <Col xs={2} className="latest-news">
           <div className="ps-3">
             <h6 className="latest-news-text ps-2">
@@ -38,12 +38,13 @@ const Scroll = () => {
                 <span className="nd-part">|</span> Defense{" "}
                 <span className="nd-part">|</span> Business Institutions "
               </span>
-            </span>
+              </span>
+              
           </Marquee>
         </Col>
       </Row>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Scroll;

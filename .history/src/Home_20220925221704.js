@@ -9,7 +9,7 @@ import Scroll from './Scroll';
 const Home = () => {
  setInterval(()=>{
         window.location.reload(false);
-    }, 350000);
+    }, 110000);
   return (
     <div className="home">
   
@@ -26,6 +26,7 @@ const Home = () => {
       <Row className="mt-2 scroll-component">
         <Scroll></Scroll>
         </Row>
+
     </div>
   );
 };
